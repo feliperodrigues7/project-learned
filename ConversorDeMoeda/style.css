@@ -7,29 +7,24 @@
 }
 
 body {
-    background: #8a51fc;
+    background-size: cover;
 }
 
-.logo {
-    display: block;
-    margin-top: 12px;
-    margin-left: auto;
-    margin-right: auto;
-    Height: 300px;
-}
 
 main {
     width: 327px;
-    background-color: #F4F4F4;
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid #13d7ff;
     border-radius: 20px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 44px 24px 23px;
 }
+
 
 label {
     font-weight: 700;
     Size: 14px;
-    color:#777777;
+    color:#FFFFFF;
 }
 
 .currency-select-de,.currency-select-para, input {
@@ -46,7 +41,7 @@ label {
 }
 
 .convert-button {
-    background-color: #772FD3;
+    background-color: #13d7ff;
     width: 100%;
     border-radius: 5px;
     border: none;
@@ -66,7 +61,8 @@ button:active {
 }
 
 section {
-    border: 1px solid #772FD3;
+    background-color: #043768;
+    border: 1px solid #13d7ff;
     border-radius: 20px;
     margin-top: 36px;
     padding: 12px;
@@ -77,6 +73,7 @@ section {
 }
 
 .arrow {
+    width: 100px;
     margin: 15px;
 }
  .currency-box {
@@ -87,12 +84,12 @@ section {
  }
 
  .currency {
-    color: #777777;
+    color: #FFFFFF;
     font-size: 14px;
  }
 
  .currency-value, .currency-value-to-convert {
-    color: #555555;
+    color: #FFFFFF;
     font-weight: 700;
     font-size: 20px;
  }
