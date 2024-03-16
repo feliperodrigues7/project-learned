@@ -3,6 +3,7 @@ const buttonNewPricesItems = document.querySelector('.map-all')
 const buttonItemsSum = document.querySelector('.items-sum')
 const buttonItemsFilter = document.querySelector('.items-filter')
 const list = document.querySelector('ul')
+const background = document.querySelector('.body')
 
 
 //Function para atualizar a moeda
@@ -30,6 +31,7 @@ function allShow(productsArray) {
     })
 
     list.innerHTML = MyLi
+
 }
 //MAP
 function mapAllItems() {
