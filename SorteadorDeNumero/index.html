@@ -7,22 +7,26 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap" rel="stylesheet">
     <title>Sorteador</title>
 </head>
 
 <body>
-    <img src="./assets/sort 1.png" alt="logo">
-    <h3>Sortear um numero</h3>
-    <div class="main">
-        <input class="min" type="number" placeholder="Entre">
-        br
-        <input class="max" type="number" placeholder="E">
-    </div>
-    <button onclick="randomNumbers()">Sortear</button>
-    <input disabled onchange="result()" class="random-number" id="randomNumber" type="text" value="">
+    <label>
+        <div class="title">
+            <p>Sorteador</p>
+        </div>
+        <div class="main">
+            <input class="min" type="number" placeholder="Ex: 1">
+            <br>
+            <input class="max" type="number" placeholder="Ex: 100">
+        </div>
+        <button onclick="randomNumbers()">Sortear</button>
+        <input disabled onchange="result()" class="random-number" id="randomNumber" type="text" value="">
+    </label>
 </body>
 <script src="../SorteadorDeNumero/scripts.js"></script>
+
 </html>
